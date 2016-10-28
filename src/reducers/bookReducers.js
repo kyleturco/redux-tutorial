@@ -4,7 +4,7 @@ export default (state = [], action) => {
     // CREATE_BOOK and act on that
     case 'CREATE_BOOK':
       return [
-        ...state
+        ...state,
         Object.assign({}, action.book)
       ]
     default:
