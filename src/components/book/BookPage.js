@@ -16,7 +16,7 @@ class Book extends React.Component {
       <div>
         <h3>Books</h3>
         <ul>
-          {this.props.books.map((b, i) => <li key={i}>{b.title}</li)}
+          {this.props.books.map((b, i) => <li key={i}>{b.title}</li>)}
         </ul>
         <div>
           <h3>Books Form</h3>
@@ -34,3 +34,5 @@ class Book extends React.Component {
     )
   }
 }
+
+export default Book
